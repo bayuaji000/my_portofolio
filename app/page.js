@@ -58,22 +58,19 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-white dark:bg-gray-900 flex flex-col items-center justify-center p-10">          {/* Title */}
-          <div className="text-center text-gray-900 dark:text-white mb-8">
-            <h3 className="text-3xl font-bold">Framework & Tools</h3>
-          </div>
-
-          {/* Container for the logos */}
-          <div className="bg-gray-100 dark:bg-white p-8 rounded-lg shadow-lg w-full max-w-4xl">
-            <div className="grid grid-cols-4 gap-4">
+        <section className="bg-white dark:bg-gray-900 flex flex-col items-center justify-center py-12">
+          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Framework & Tools</h3>
+          <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-4xl">
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
               {logos.map((src, index) => (
-                <div key={index} className="flex items-center justify-center h-24 rounded-lg">
-                  <Image src={src} alt={`Logo ${index + 1}`} width={80} height={80} className="object-contain" />
+                <div key={index} className="flex items-center justify-center h-24">
+                  <Image src={src} alt={`Logo ${index + 1}`} width={70} height={70} className="object-contain" />
                 </div>
               ))}
             </div>
           </div>
         </section>
+
 
         <section className="py-10">
           <div>
@@ -91,7 +88,7 @@ export default function Home() {
               { src: web3, link: "https://forum-app-blush.vercel.app/" },
               { src: web4, link: "https://travel-ui-ux-apps.vercel.app/" },
               { src: web5, link: "https://movie-app-smoky-psi.vercel.app/" },
-              { src: web6, link: "" }
+              { src: web6, link: "https://bookshelf-app-ten.vercel.app/" }
             ].map((project, index) => (
               <div key={index} className="basis-1/3 flex-1">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
