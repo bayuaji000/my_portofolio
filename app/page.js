@@ -15,7 +15,7 @@ const logos = [
   "https://www.svgrepo.com/show/303600/typescript-logo.svg",
   "https://www.svgrepo.com/show/303206/javascript-logo.svg",
   "https://www.svgrepo.com/show/374118/tailwind.svg",
-  "https://www.svgrepo.com/show/361653/vercel-logo.svg"
+  "https://www.svgrepo.com/show/327408/logo-vercel.svg"
 ];
 
 export default function Home() {
