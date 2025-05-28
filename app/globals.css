@@ -23,6 +23,10 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+.Home p {
+  font-size: 16px;
+}
+
 .image {
   align-items: center;
 }
