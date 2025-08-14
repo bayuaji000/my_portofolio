@@ -7,6 +7,7 @@ import web4 from "./image/proyek4.png";
 import web5 from "./image/proyek5.png";
 import web6 from "./image/proyek6.png";
 import web7 from "./image/proyek7.png";
+import web8 from "./image/proyek8.png";
 
 
 
@@ -24,13 +25,13 @@ const logos = [
 const projects = [
   {
     src: web1,
-    link: "",
+    link: "image/proyek1.png",
     description: "Financial Notes Bot with n8n, Telegram, Gemini & Google Spreadsheet."
   },
   {
     src: web2,
-    link: "https://note-app-vite.vercel.app/",
-    description: "Note App - Simple note-taking app with Vite."
+    link: "image/proyek2.png",
+    description: "Customer Service Bot with n8n, Telegram, Gemini & Google Spreadsheet."
   },
   {
     src: web3,
@@ -57,6 +58,11 @@ const projects = [
     link: "https://open-space-app-azure.vercel.app/",
     description: "Open Space - Collaborative workspace reservation platform."
   },
+  {
+    src: web8,
+    link: "https://note-app-vite.vercel.app/",
+    description: "Note App - Simple note-taking app with Vite."
+  }
 ];
 
 export default function Home() {
