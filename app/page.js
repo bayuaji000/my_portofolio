@@ -6,10 +6,8 @@ import web3 from "./image/proyek3.png";
 import web4 from "./image/proyek4.png";
 import web5 from "./image/proyek5.png";
 import web6 from "./image/proyek6.png";
-<<<<<<< HEAD
-=======
 import web7 from "./image/proyek7.png";
->>>>>>> 76c4d78 (add new project)
+
 
 
 const logos = [
@@ -20,11 +18,7 @@ const logos = [
   "https://www.svgrepo.com/show/303600/typescript-logo.svg",
   "https://www.svgrepo.com/show/303206/javascript-logo.svg",
   "https://www.svgrepo.com/show/374118/tailwind.svg",
-<<<<<<< HEAD
-  "https://www.svgrepo.com/show/327408/logo-vercel.svg"
-=======
   "https://synthova.de/wp-content/uploads/2025/05/n8n-color.png"
->>>>>>> 76c4d78 (add new project)
 ];
 
 const projects = [
@@ -57,14 +51,11 @@ const projects = [
     src: web6,
     link: "https://bookshelf-app-ten.vercel.app/",
     description: "Bookshelf - Personal digital bookshelf app."
-<<<<<<< HEAD
-=======
   },
   {
     src: web7,
     link: "",
     description: "Financial Notes Bot with n8n, Telegram, Gemini & Google Spreadsheet."
->>>>>>> 76c4d78 (add new project)
   }
 ];
 
@@ -94,18 +85,10 @@ export default function Home() {
                 M. Bayu Aji
               </h2>
               <h3 className="text-xl sm:text-2xl py-2 font-bold dark:text-white">
-<<<<<<< HEAD
-                Web Developer
-              </h3>
-              <p className="text-sm sm:text-md py-5 leading-6 text-gray-800 dark:text-gray-200">
-                Web Developer & IT Freelancer, experienced in Front-End
-                with React, Next.js, and Node.js. Enthusiastic to learn & grow in the IT world.
-=======
                 Software Developer
               </h3>
               <p className="text-sm sm:text-md py-5 leading-6 text-gray-800 dark:text-gray-200">
                 Web Developer & IT Freelancer, experienced in Front-End development using React, workflow automation with n8n, API integration (AI applications & Google Workspace). Enthusiastic about learning and growing in the IT world.
->>>>>>> 76c4d78 (add new project)
               </p>
             </div>
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
