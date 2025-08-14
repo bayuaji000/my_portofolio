@@ -24,8 +24,8 @@ const logos = [
 const projects = [
   {
     src: web1,
-    link: "https://open-space-app-azure.vercel.app/",
-    description: "Open Space - Collaborative workspace reservation platform."
+    link: "",
+    description: "Financial Notes Bot with n8n, Telegram, Gemini & Google Spreadsheet."
   },
   {
     src: web2,
@@ -54,9 +54,9 @@ const projects = [
   },
   {
     src: web7,
-    link: "",
-    description: "Financial Notes Bot with n8n, Telegram, Gemini & Google Spreadsheet."
-  }
+    link: "https://open-space-app-azure.vercel.app/",
+    description: "Open Space - Collaborative workspace reservation platform."
+  },
 ];
 
 export default function Home() {
