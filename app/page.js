@@ -76,7 +76,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-4 sm:ml-8"
-                  href="https://drive.google.com/file/d/1Lo28jN4R4Ej4_B0b0Zleg4eAmzpz0vHN/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1N_XSpwKAryhxu8MOT6irEROLVaKEKOP5/view?usp=drivesdk"
                 >
                   Resume
                 </a>
