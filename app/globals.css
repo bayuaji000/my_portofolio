@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@font-face {
+  font-family: "burtons";
+  src: url("./image/Burtons.otf");
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Poppins, sans-serif;
+}
+
+.Home p {
+  font-size: 16px;
+}
+
+.image {
+  align-items: center;
+}
