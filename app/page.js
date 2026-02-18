@@ -50,8 +50,13 @@ const projects = [
   },
   {
     src: web6,
+<<<<<<< HEAD
     link: "https://luxspace-rwby.vercel.app/",
     description: "Luxspace - E-commerce website for showcasing and selling modern furniture."
+=======
+    link: "https://bookshelf-app-ten.vercel.app/",
+    description: "Bookshelf - Personal digital bookshelf app."
+>>>>>>> 602cfd6711fd80dfc29be1c17b0532838adcac03
   },
   {
     src: web7,
@@ -60,8 +65,13 @@ const projects = [
   },
   {
     src: web8,
+<<<<<<< HEAD
     link: "https://notes-app-v2-tan.vercel.app/",
     description: "Note App - Simple note-taking app with RESTful API."
+=======
+    link: "https://note-app-vite.vercel.app/",
+    description: "Note App - Simple note-taking app with Vite."
+>>>>>>> 602cfd6711fd80dfc29be1c17b0532838adcac03
   }
 ];
 
